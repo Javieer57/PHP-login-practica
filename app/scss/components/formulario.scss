@@ -1,0 +1,84 @@
+@use "../util" as *;
+
+.formulario {
+	background: #2c2c47;
+	padding: 30px;
+	margin-bottom: 30px;
+
+	.form-group {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	input[type="text"],
+	input[type="password"] {
+		padding: 15px;
+		font-family: var(--font-body);
+		font-size: 18px;
+		line-height: 18px;
+		border: none;
+		vertical-align: top;
+	}
+
+	.icono {
+		padding: 15px;
+		text-align: center;
+		width: 48px;
+		max-height: 48px;
+		font-size: 18px;
+		line-height: 18px;
+		background: #c8c8c8;
+		display: inline-block;
+		color: #6b6b6b;
+		vertical-align: baseline;
+
+		.izquierda {
+			margin-right: 4px;
+			-webkit-border-radius: 3px 0 0 3px;
+			-moz-border-radius: 3px 0 0 3px;
+			-ms-border-radius: 3px 0 0 3px;
+			-o-border-radius: 3px 0 0 3px;
+			border-radius: 3px 0 0 3px;
+		}
+	}
+
+	.usuario,
+	.password {
+		width: calc(100% - 52px);
+		-webkit-border-radius: 0 3px 3px 0;
+		-moz-border-radius: 0 3px 3px 0;
+		-ms-border-radius: 0 3px 3px 0;
+		-o-border-radius: 0 3px 3px 0;
+		border-radius: 0 3px 3px 0;
+	}
+
+	.password_btn {
+		width: calc(100% - 105px);
+	}
+	.error ul {
+		padding: 0 15px;
+	}
+	.error ul li {
+		margin-bottom: 10px;
+	}
+
+	.submit-btn {
+		padding: 15px;
+		text-align: center;
+		width: 48px;
+		max-height: 48px;
+		font-size: 18px;
+		line-height: 18px;
+		background: grey;
+		display: inline-block;
+		color: #fff;
+		background: #769766;
+		cursor: pointer;
+
+		-webkit-border-radius: 0 3px 3px 0;
+		-moz-border-radius: 0 3px 3px 0;
+		-ms-border-radius: 0 3px 3px 0;
+		-o-border-radius: 0 3px 3px 0;
+		border-radius: 0 3px 3px 0;
+	}
+}

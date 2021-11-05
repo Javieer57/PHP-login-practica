@@ -1,0 +1,3 @@
+build with:
+[google fonts](https://fonts.google.com/)
+[fontawesome](https://fontawesome.com/)

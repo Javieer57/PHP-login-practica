@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	font-size: 16px;
+	font-family: var(--font-body);
+	background: #1b1d35;
+	color: #fff;
+}
+
+img {
+	width: 100%;
+	vertical-align: top;
+}
+
+a {
+	color: #b8711b;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

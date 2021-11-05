@@ -1,0 +1,12 @@
+@use "globals";
+@use "components";
+@use "pages";
+
+.texto-registrate {
+	text-align: center;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
